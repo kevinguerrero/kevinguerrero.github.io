@@ -429,11 +429,11 @@ h6,
   color: #ffffff;
 }
 #menu-m .link {
-  font-size: 0.75rem;
+  font-size: 0.95rem;
 }
 #menu-m .dropdown-item,
 #menu-m .nav-dropdown-sm .link {
-  font-size: 0.812rem;
+  font-size: 1.029rem;
 }
 #menu-m .link:hover,
 #menu-m .dropdown-item:hover,
@@ -480,8 +480,8 @@ h6,
   color: #bcbcbc;
 }
 #features7-o .iconbox {
-  background-color: #f3c649;
-  border-color: #f3c649;
+  background-color: #000000;
+  border-color: #000000;
 }
 #features7-o H4 {
   text-align: center;
