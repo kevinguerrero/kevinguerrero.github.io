@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "index.html",
+    "currentPage": "introduction.html",
     "name": "My Site",
     "theme": {
       "name": "mobirise3",
@@ -21,7 +21,7 @@
       }
     },
     "versionFirst": "3.10.4",
-    "uniqCompNum": 25,
+    "uniqCompNum": 33,
     "versionPublish": "3.11.1",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png"
@@ -64,13 +64,13 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#0e0e0e"
+              "background": "#000000"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#202020!important"
+              "background": "#0d0b0b!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#282828"
+              "background": "#151212"
             },
             ".bg-color.transparent .link": {
               "color": "#ffffff",
@@ -92,12 +92,12 @@
           "_name": "menu",
           "_anchor": "menu-m",
           "_params": {
-            "bgColor": "#282828",
+            "bgColor": "#151212",
             "fontSize": "0.95",
             "fontName": {},
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor",
-            "transparent": false,
+            "transparent": true,
             "sticky": true,
             "logo": true,
             "showBrand": true,
@@ -116,229 +116,53 @@
               "linkInNewWindow": false,
               "name": "apple",
               "family": "MobiriseIcons",
-              "link": "https://mobirise.com",
+              "link": "index.html",
               "size": 0,
-              "active": true
+              "active": true,
+              "newWindow": false
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"><p><br></p><p>Kevin Guerrero&nbsp;&nbsp;&nbsp;&nbsp;</p></a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#features4-3\">Introduction</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">Applications</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"photoshop.html\" aria-expanded=\"false\">Adobe Photoshop</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"illustrator.html\">Adobe Illustrator</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">123D</a><div class=\"dropdown open\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">Office Suite</a><div class=\"dropdown-menu dropdown-submenu\"><div class=\"dropdown open\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">Word</a><div class=\"dropdown-menu dropdown-submenu\"><div class=\"dropdown open\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">Discuss IT&nbsp;</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://kevinguerrero.github.io/documents/Discuss IT Topic 6 Completed.pdf\">Discuss IT 6</a></div></div></div></div></div></div></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Credentials</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Industry Certifications</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">References</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Teacher 1</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Teacher 2</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Family Friend</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Community Member</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contact.html\" aria-expanded=\"false\">Contact</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"introduction.html\">Introduction</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Applications</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"photoshop.html\" aria-expanded=\"false\">Adobe Photoshop</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"illustrator.html\">Adobe Illustrator</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">123D</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Office Suite</a><div class=\"dropdown-menu dropdown-submenu\"><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Word</a><div class=\"dropdown-menu dropdown-submenu\"><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Discuss IT&nbsp;</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://kevinguerrero.github.io/documents/Discuss IT Topic 6 Completed.pdf\">Discuss IT 6</a></div></div></div></div></div></div></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Credentials</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Industry Certifications</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\">References</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Teacher 1</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Teacher 2</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Family Friend</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Community Member</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contact.html\" aria-expanded=\"false\">Contact</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
         },
         {
-          "_inherit": "msg-box5",
-          "_styles": {
-            ".mbr-section-title, .lead p": {
-              "color": "#fff"
-            }
-          },
           "_tags": [
             "Theme"
           ],
-          "_name": "msg-box7",
-          "_anchor": "msg-box7-0",
+          "_name": "header1",
+          "_anchor": "header1-v",
           "_params": {
-            "imageSize": 50,
-            "paddingTop": "6",
-            "paddingBottom": "6",
             "parallax": true,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1333.jpg",
-            "bgColor": "#fff",
+            "showArrow": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x2666.jpg",
+            "bgColor": "#a07e49",
             "bgColorRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": true,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#000",
-            "inverse": false,
-            "showTitle": true,
-            "showText": true,
-            "showButtons": true
-          },
-          "media": {
-            "image": {
-              "width": 1400,
-              "src": "@THEME_PATH@/components/_images/desert.jpg"
-            },
-            "video": {
-              "active": true,
-              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-msg-box5",
-              "link": "",
-              "size": 250
-            }
-          },
-          "title": "Kevin Guerrero",
-          "text": "My name is Kevin Guerrero , I am 15 years old and i love to build and &nbsp;<br>create things. I find it really enjoyable and when i become older I want to become a Civil Engineer. I also like digital design and it is &nbsp;was I am currently doing in at MAS.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-success\" href=\"index.html#content6-k\" data-toolbar=\"-mbrBtnMove\">Biography Continued</a> "
-        },
-        {
-          "_inherit": "features4",
-          "_tags": [
-            "Theme"
-          ],
-          "_styles": {
-            ".card-subtitle": {
-              "color": "#bcbcbc"
-            },
-            ".iconbox": {
-              "background-color": "#000000",
-              "border-color": "#000000"
-            },
-            "H4": {
-              "text-align": "center"
-            }
-          },
-          "_name": "features7",
-          "_anchor": "features7-o",
-          "_params": {
-            "iconsBgColor": "#000000",
-            "paddingTop": "1",
-            "paddingBottom": "1",
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#efefef",
-            "bgColorRadio": true,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "bgVideoRadio": false,
             "overlay": false,
             "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "columns": 4,
-            "showImages": true,
-            "showTitles": true,
-            "showSubtitles": false,
-            "ShowTexts": true,
-            "showButtons": false
+            "overlayColor": "#000",
+            "contentAlign": "center",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
           },
-          "media1": {
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features7",
-              "linkInNewWindow": false,
-              "name": "tools-2",
-              "family": "et-line",
-              "active": true,
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#ffffff"
-            }
-          },
-          "title1": "Civil Engineer",
-          "subtitle1": "Bootstrap 4 has been noted",
-          "caption1": "I've always wanted to become a Civil Engineer ever since i saw what they do and I've think thats it is very interesting, building and planning things.",
-          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "media2": {
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features7",
-              "linkInNewWindow": false,
-              "name": "file",
-              "family": "MobiriseIcons",
-              "active": true,
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#ffffff"
-            }
-          },
-          "title2": "Certifications",
-          "subtitle2": "One of Bootstrap 4's big points",
-          "caption2": "I want to be able to pass all the certification tests that i will recieve by the end of high school.",
-          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "media3": {
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features7",
-              "linkInNewWindow": false,
-              "name": "briefcase",
-              "family": "et-line",
-              "active": true,
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#ffffff"
-            }
-          },
-          "title3": "Traveling",
-          "subtitle3": "Google has a highly exhaustive list of fonts",
-          "caption3": "I want to travel the world and visit many new places, I also want to visit as much as my family and meet as many as them as I possibly can.",
-          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "media4": {
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features7",
-              "linkInNewWindow": false,
-              "name": "linegraph",
-              "family": "et-line",
-              "active": true,
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#ffffff"
-            }
-          },
-          "title4": "Business<br>",
-          "subtitle4": "Mobirise gives you the freedom to develop",
-          "caption4": "I want to try and start my own company, I'm unsure about it now but I'd like to try make a product that people will enjoy and need.",
-          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "media5": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-features7",
-              "name": "linegraph",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#fff",
-              "family": "et-line"
-            }
-          },
-          "title5": "Trendy Website Blocks",
-          "subtitle5": "Choose from the large selection of blocks",
-          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "media6": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-features7",
-              "name": "linegraph",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#fff",
-              "family": "et-line"
-            }
-          },
-          "title6": "Host Anywhere",
-          "subtitle6": "Don't limit yourself to just one platform",
-          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>"
+          "title": "KEVIN GUERRERO",
+          "text": "Welcome to my website",
+          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"introduction.html\" data-toolbar=\"-mbrBtnMove\">Enter</a>"
         },
         {
           "_tags": [
             "Theme"
           ],
-          "_name": "content6",
-          "_anchor": "content6-k",
+          "_name": "contacts4",
+          "_anchor": "contacts4-w",
           "_params": {
-            "paddingTop": 1,
-            "paddingBottom": 1,
-            "bgColor": "#fff"
-          },
-          "text1": "<p>Biography Continued..</p><p><br></p><p>I'm 15 years old and I was born in Peru, from there i had moved to California with the rest of my family and lived there for about 10 years. When i was about 11 I moved to Florida with the rest of my family. Ever since I came into my digital design class in 6th grade i knew it was where I wanted to be. If I don't complete my 1st goal I'd like to pursue something in digital deisgn as well.</p>",
-          "text2": ""
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "contacts1",
-          "_anchor": "contacts1-2",
-          "_params": {
-            "paddingTop": "2",
-            "paddingBottom": "2",
+            "paddingTop": 3,
+            "paddingBottom": 3,
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
@@ -348,24 +172,42 @@
             "overlayOpacity": 0.8,
             "overlayColor": "#3C3C3C"
           },
-          "logo": {
-            "image": {
-              "src": "@THEME_PATH@/components/_images/logo.png",
-              "width": 128
+          "text1": "<p><strong>Address</strong><br>1271 SW 124 Crt&nbsp;<br>\nMiami, FL 33184<br><br><br>\n<strong>Contacts</strong><br>\nEmail: kguerrero@miamiartsstudio.com&nbsp;&nbsp;&nbsp;&nbsp;<br>\nPhone: +1 (305) 710 7571<br><br></p>",
+          "text2": "<p class=\"mbr-contacts__text\"><strong>Links</strong></p><ul class=\"mbr-contacts__list\"><br><li><a href=\"introduction.html\">Biography</a></li><li><a href=\"photoshop.html\">Photoshop</a></li><li><a href=\"illustrator.html\">Illustrator</a></li><li>Credentials</li></ul>",
+          "form": {
+            "title": "MESSAGE",
+            "action": "kguerrero@miamiartsstudio.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
             },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-contacts1",
-              "linkInNewWindow": false,
-              "name": "desctop",
-              "family": "MobiriseIcons",
-              "link": "",
-              "size": 0,
-              "active": true
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": false,
+                "customTitle": "Name*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": false,
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": false,
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
             }
           },
-          "text1": "<strong>Address</strong><br>1271 SW 124 Crt&nbsp;<br>\nMiami Fl ,33184",
-          "text2": "<strong>Contacts</strong><br>\nEmail:kguerrero@miamiartsstudio.com<br>\nPhone: +1 (305) 710 7571<br><br>",
-          "text3": ""
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-sm btn-black\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove,-mbrBtnRemove\">Contact me</a>",
+          "_styles": {
+            "UL": {
+              "text-align": "left"
+            }
+          }
         },
         {
           "_name": "footer1",
@@ -376,7 +218,7 @@
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#323232",
+            "bgColor": "#151212",
             "bgColorRadio": true,
             "overlay": true,
             "overlayOpacity": 0.8,
@@ -540,22 +382,22 @@
               "color": "#ffffff"
             },
             ".link": {
-              "font-size": "0.75rem"
+              "font-size": "0.95rem"
             },
             ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "0.812rem"
+              "font-size": "1.029rem"
             },
             ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#0e0e0e"
+              "background": "#000000"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#202020!important"
+              "background": "#0d0b0b!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#282828"
+              "background": "#151212"
             },
             ".bg-color.transparent .link": {
               "color": "#ffffff",
@@ -577,12 +419,12 @@
           "_name": "menu",
           "_anchor": "menu-c",
           "_params": {
-            "bgColor": "#282828",
+            "bgColor": "#151212",
             "fontSize": "0.95",
             "fontName": {},
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor",
-            "transparent": false,
+            "transparent": true,
             "sticky": true,
             "logo": true,
             "showBrand": true,
@@ -604,17 +446,22 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"><p><br></p><p>Kevin Guerrero&nbsp;&nbsp;&nbsp;&nbsp;</p></a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#features4-3\">Introduction</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">Applications</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"photoshop.html\" aria-expanded=\"false\">Adobe Photoshop</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"illustrator.html\">Adobe Illustrator</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">123D</a><div class=\"dropdown open\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">Office Suite</a><div class=\"dropdown-menu dropdown-submenu\"><div class=\"dropdown open\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">Word</a><div class=\"dropdown-menu dropdown-submenu\"><div class=\"dropdown open\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">Discuss IT&nbsp;</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://kevinguerrero.github.io/documents/Discuss IT Topic 6 Completed.pdf\">Discuss IT 6</a></div></div></div></div></div></div></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Credentials</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Industry Certifications</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">References</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Teacher 1</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Teacher 2</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Family Friend</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Community Member</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contact.html\" aria-expanded=\"false\">Contact</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"introduction.html\">Introduction</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Applications</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"photoshop.html\" aria-expanded=\"false\">Adobe Photoshop</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"illustrator.html\">Adobe Illustrator</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">123D</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Office Suite</a><div class=\"dropdown-menu dropdown-submenu\"><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Word</a><div class=\"dropdown-menu dropdown-submenu\"><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Discuss IT&nbsp;</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://kevinguerrero.github.io/documents/Discuss IT Topic 6 Completed.pdf\">Discuss IT 6</a></div></div></div></div></div></div></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Credentials</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Industry Certifications</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\">References</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Teacher 1</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Teacher 2</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Family Friend</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Community Member</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contact.html\" aria-expanded=\"false\">Contact</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
         },
         {
           "_tags": [
             "Theme"
           ],
-          "_name": "contacts1",
-          "_anchor": "contacts1-d",
+          "_name": "contacts4",
+          "_styles": {
+            "UL": {
+              "text-align": "left"
+            }
+          },
+          "_anchor": "contacts4-w",
           "_params": {
-            "paddingTop": "2",
-            "paddingBottom": "2",
+            "paddingTop": 3,
+            "paddingBottom": 3,
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
@@ -624,24 +471,37 @@
             "overlayOpacity": 0.8,
             "overlayColor": "#3C3C3C"
           },
-          "logo": {
-            "image": {
-              "src": "@THEME_PATH@/components/_images/logo.png",
-              "width": 128
+          "text1": "<p><strong>Address</strong><br>1271 SW 124 Crt&nbsp;<br>\nMiami, FL 33184<br><br><br>\n<strong>Contacts</strong><br>\nEmail: kguerrero@miamiartsstudio.com&nbsp;&nbsp;&nbsp;&nbsp;<br>\nPhone: +1 (305) 710 7571<br><br></p>",
+          "text2": "<p class=\"mbr-contacts__text\"><strong>Links</strong></p><ul class=\"mbr-contacts__list\"><br><li><a href=\"introduction.html\">Biography</a></li><li><a href=\"photoshop.html\">Photoshop</a></li><li><a href=\"illustrator.html\">Illustrator</a></li><li>Credentials</li></ul>",
+          "form": {
+            "title": "MESSAGE",
+            "action": "kguerrero@miamiartsstudio.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
             },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-contacts1",
-              "linkInNewWindow": false,
-              "name": "desctop",
-              "family": "MobiriseIcons",
-              "link": "",
-              "size": 0,
-              "active": true
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": false,
+                "customTitle": "Name*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": false,
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": false,
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
             }
           },
-          "text1": "<strong>Address</strong><br>1271 SW 124 Crt&nbsp;<br>\nMiami Fl ,33184",
-          "text2": "<strong>Contacts</strong><br>\nEmail:kguerrero@miamiartsstudio.com<br>\nPhone: +1 (305) 710 7571<br><br>",
-          "text3": ""
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-sm btn-black\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove,-mbrBtnRemove\">Contact me</a>"
         },
         {
           "_name": "footer1",
@@ -652,13 +512,13 @@
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#323232",
+            "bgColor": "#151212",
             "bgColorRadio": true,
             "overlay": true,
             "overlayOpacity": 0.8,
             "overlayColor": "#444444"
           },
-          "text": "Kevin Guerrero."
+          "text": "Kevin Guerrero"
         }
       ]
     },
@@ -686,10 +546,10 @@
               "color": "#ffffff"
             },
             ".link": {
-              "font-size": "0.75rem"
+              "font-size": "0.95rem"
             },
             ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "0.812rem"
+              "font-size": "1.029rem"
             },
             ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
               "color": "@primaryColor"
@@ -728,7 +588,7 @@
             "fontName": {},
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor",
-            "transparent": false,
+            "transparent": true,
             "sticky": true,
             "logo": true,
             "showBrand": true,
@@ -810,44 +670,7 @@
               }
             }
           },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\">CONTACT US</a>"
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "contacts1",
-          "_anchor": "contacts1-g",
-          "_params": {
-            "paddingTop": "2",
-            "paddingBottom": "2",
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#2e2e2e",
-            "bgColorRadio": true,
-            "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#3C3C3C"
-          },
-          "logo": {
-            "image": {
-              "src": "@THEME_PATH@/components/_images/logo.png",
-              "width": 128
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-contacts1",
-              "linkInNewWindow": false,
-              "name": "desctop",
-              "family": "MobiriseIcons",
-              "link": "",
-              "size": 0,
-              "active": true
-            }
-          },
-          "text1": "<strong>Address</strong><br>1271 SW 124 Crt&nbsp;<br>\nMiami Fl ,33184",
-          "text2": "<strong>Contacts</strong><br>\nEmail:kguerrero@miamiartsstudio.com<br>\nPhone: +1 (305) 710 7571<br><br>",
-          "text3": ""
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-black\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">CONTACT ME</a>"
         },
         {
           "_name": "footer1",
@@ -992,10 +815,10 @@
                 "caption": "Type caption here"
               }
             ],
-            "spacing": 0,
+            "spacing": "1",
             "showText": false,
             "filter": false,
-            "bgColor": "fff",
+            "bgColor": "#151212",
             "filterBgColor": false,
             "fullWidth": true,
             "showBullets": true
@@ -1022,10 +845,10 @@
               "color": "#ffffff"
             },
             ".link": {
-              "font-size": "0.75rem"
+              "font-size": "0.95rem"
             },
             ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "0.812rem"
+              "font-size": "1.029rem"
             },
             ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
               "color": "@primaryColor"
@@ -1064,7 +887,7 @@
             "fontName": {},
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor",
-            "transparent": false,
+            "transparent": true,
             "sticky": true,
             "logo": true,
             "showBrand": true,
@@ -1086,7 +909,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"><p><br></p><p>Kevin Guerrero&nbsp;&nbsp;&nbsp;&nbsp;</p></a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#features4-3\">Introduction</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">Applications</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"photoshop.html\" aria-expanded=\"false\">Adobe Photoshop</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"illustrator.html\">Adobe Illustrator</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">123D</a><div class=\"dropdown open\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">Office Suite</a><div class=\"dropdown-menu dropdown-submenu\"><div class=\"dropdown open\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">Word</a><div class=\"dropdown-menu dropdown-submenu\"><div class=\"dropdown open\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">Discuss IT&nbsp;</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://kevinguerrero.github.io/documents/Discuss IT Topic 6 Completed.pdf\">Discuss IT 6</a></div></div></div></div></div></div></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Credentials</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Industry Certifications</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">References</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Teacher 1</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Teacher 2</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Family Friend</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Community Member</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contact.html\" aria-expanded=\"false\">Contact</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"introduction.html\">Introduction</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Applications</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"photoshop.html\" aria-expanded=\"false\">Adobe Photoshop</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"illustrator.html\">Adobe Illustrator</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">123D</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Office Suite</a><div class=\"dropdown-menu dropdown-submenu\"><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Word</a><div class=\"dropdown-menu dropdown-submenu\"><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Discuss IT&nbsp;</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://kevinguerrero.github.io/documents/Discuss IT Topic 6 Completed.pdf\">Discuss IT 6</a></div></div></div></div></div></div></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Credentials</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Industry Certifications</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\">References</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Teacher 1</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Teacher 2</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Family Friend</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Community Member</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contact.html\" aria-expanded=\"false\">Contact</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
         },
         {
           "_tags": [
@@ -1100,7 +923,7 @@
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#2e2e2e",
+            "bgColor": "#151212",
             "bgColorRadio": true,
             "overlay": true,
             "overlayOpacity": 0.8,
@@ -1134,13 +957,389 @@
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#323232",
+            "bgColor": "#151212",
             "bgColorRadio": true,
             "overlay": true,
             "overlayOpacity": 0.8,
             "overlayColor": "#444444"
           },
-          "text": "Kevin Guerrero."
+          "text": "Kevin Guerrero"
+        }
+      ]
+    },
+    "introduction.html": {
+      "settings": {
+        "title": "introduction",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.95rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "1.029rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#000000"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#0d0b0b!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#151212"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-p",
+          "_params": {
+            "bgColor": "#151212",
+            "fontSize": "0.95",
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": true,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "linkInNewWindow": false,
+              "name": "apple",
+              "family": "MobiriseIcons",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "active": true
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"><p><br></p><p>Kevin Guerrero&nbsp;&nbsp;&nbsp;&nbsp;</p></a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"introduction.html\">Introduction</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Applications</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"photoshop.html\" aria-expanded=\"false\">Adobe Photoshop</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"illustrator.html\">Adobe Illustrator</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">123D</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Office Suite</a><div class=\"dropdown-menu dropdown-submenu\"><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Word</a><div class=\"dropdown-menu dropdown-submenu\"><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Discuss IT&nbsp;</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://kevinguerrero.github.io/documents/Discuss IT Topic 6 Completed.pdf\">Discuss IT 6</a></div></div></div></div></div></div></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Credentials</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Industry Certifications</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\">References</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Teacher 1</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Teacher 2</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Family Friend</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Community Member</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contact.html\" aria-expanded=\"false\">Contact</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+        },
+        {
+          "_inherit": "msg-box5",
+          "_styles": {
+            ".mbr-section-title, .lead p": {
+              "color": "#fff"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box7",
+          "_anchor": "msg-box7-q",
+          "_params": {
+            "imageSize": 50,
+            "paddingTop": "6",
+            "paddingBottom": "6",
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1333.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "inverse": false,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "media": {
+            "image": {
+              "width": 1400,
+              "src": "@THEME_PATH@/components/_images/desert.jpg"
+            },
+            "video": {
+              "active": true,
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "Kevin Guerrero",
+          "text": "My name is Kevin Guerrero , I am 15 years old and i love to build and &nbsp;<br>create things. I find it really enjoyable and when i become older I want to become a Civil Engineer. I also like digital design and it is &nbsp;was I am currently doing in at MAS.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-success\" href=\"index.html#content6-k\" data-toolbar=\"-mbrBtnMove\">Biography Continued</a> "
+        },
+        {
+          "_inherit": "features4",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".card-subtitle": {
+              "color": "#bcbcbc"
+            },
+            ".iconbox": {
+              "background-color": "#000000",
+              "border-color": "#000000"
+            },
+            "H4": {
+              "text-align": "center"
+            }
+          },
+          "_name": "features7",
+          "_anchor": "features7-r",
+          "_params": {
+            "iconsBgColor": "#000000",
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#efefef",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "columns": 4,
+            "showImages": true,
+            "showTitles": true,
+            "showSubtitles": false,
+            "ShowTexts": true,
+            "showButtons": false
+          },
+          "media1": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features7",
+              "linkInNewWindow": false,
+              "name": "tools-2",
+              "family": "et-line",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#ffffff"
+            }
+          },
+          "title1": "Civil Engineer",
+          "subtitle1": "Bootstrap 4 has been noted",
+          "caption1": "I've always wanted to become a Civil Engineer ever since i saw what they do and I've think thats it is very interesting, building and planning things.",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media2": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features7",
+              "linkInNewWindow": false,
+              "name": "file",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#ffffff"
+            }
+          },
+          "title2": "Certifications",
+          "subtitle2": "One of Bootstrap 4's big points",
+          "caption2": "I want to be able to pass all the certification tests that i will recieve by the end of high school.",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media3": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features7",
+              "linkInNewWindow": false,
+              "name": "briefcase",
+              "family": "et-line",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#ffffff"
+            }
+          },
+          "title3": "Traveling",
+          "subtitle3": "Google has a highly exhaustive list of fonts",
+          "caption3": "I want to travel the world and visit many new places, I also want to visit as much as my family and meet as many as them as I possibly can.",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media4": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features7",
+              "linkInNewWindow": false,
+              "name": "linegraph",
+              "family": "et-line",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#ffffff"
+            }
+          },
+          "title4": "Business<br>",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "I want to try and start my own company, I'm unsure about it now but I'd like to try make a product that people will enjoy and need.",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media5": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features7",
+              "name": "linegraph",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media6": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features7",
+              "name": "linegraph",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content6",
+          "_anchor": "content6-s",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text1": "<p>Biography Continued..</p><p><br></p><p>I'm 15 years old and I was born in Peru, from there i had moved to California with the rest of my family and lived there for about 10 years. When i was about 11 I moved to Florida with the rest of my family. Ever since I came into my digital design class in 6th grade i knew it was where I wanted to be. If I don't complete my 1st goal I'd like to pursue something in digital deisgn as well.</p>",
+          "text2": ""
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts4",
+          "_styles": {
+            "UL": {
+              "text-align": "left"
+            }
+          },
+          "_anchor": "contacts4-w",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C"
+          },
+          "text1": "<p><strong>Address</strong><br>1271 SW 124 Crt&nbsp;<br>\nMiami, FL 33184<br><br><br>\n<strong>Contacts</strong><br>\nEmail: kguerrero@miamiartsstudio.com&nbsp;&nbsp;&nbsp;&nbsp;<br>\nPhone: +1 (305) 710 7571<br><br></p>",
+          "text2": "<p class=\"mbr-contacts__text\"><strong>Links</strong></p><ul class=\"mbr-contacts__list\"><br><li><a href=\"introduction.html\">Biography</a></li><li><a href=\"photoshop.html\">Photoshop</a></li><li><a href=\"illustrator.html\">Illustrator</a></li><li>Credentials</li></ul>",
+          "form": {
+            "title": "MESSAGE",
+            "action": "kguerrero@miamiartsstudio.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": false,
+                "customTitle": "Name*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": false,
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": false,
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-sm btn-black\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove,-mbrBtnRemove\">Contact me</a>"
+        },
+        {
+          "_name": "footer1",
+          "_anchor": "footer1-u",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#151212",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Kevin Guerrero"
         }
       ]
     }
