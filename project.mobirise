@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "introduction.html",
+    "currentPage": "photoshop.html",
     "name": "My Site",
     "theme": {
       "name": "mobirise3",
@@ -746,8 +746,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/bike-small.jpg",
-                "image": "@THEME_PATH@/components/_images/gallery/bike.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/pop-concert-2000x2000-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/pop-concert-2000x2000.jpg",
                 "caption": "Type caption here",
                 "active": true
               },
