@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "index.html",
+    "currentPage": "photoshop.html",
     "name": "My Site",
     "theme": {
       "name": "mobirise3",
@@ -21,7 +21,7 @@
       }
     },
     "versionFirst": "3.10.4",
-    "uniqCompNum": 40,
+    "uniqCompNum": 44,
     "versionPublish": "3.11.1",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png"
@@ -142,7 +142,7 @@
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "bgVideoRadio": false,
-            "overlay": false,
+            "overlay": true,
             "overlayOpacity": 0.5,
             "overlayColor": "#000",
             "contentAlign": "center",
@@ -155,29 +155,46 @@
           "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"introduction.html\" data-toolbar=\"-mbrBtnMove\">Enter</a>"
         },
         {
+          "_inherit": "content5",
           "_styles": {
-            ".mbr-section-title, .mbr-section-subtitle": {
-              "text-align": "center"
+            ".mbr-section-title, p": {
+              "text-align": "right",
+              "color": "#fff"
             }
           },
           "_tags": [
             "Theme"
           ],
-          "_name": "header3",
-          "_anchor": "header3-10",
+          "_name": "content8",
+          "_anchor": "content8-17",
           "_params": {
-            "paddingTop": 1,
-            "paddingBottom": 1,
+            "paddingTop": "2",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/desert2.jpg",
             "bgColor": "#fff",
-            "showMeta": true
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "showTitle": true,
+            "showCaption": true
           },
-          "title": "Video",
-          "meta": ""
+          "title": "Video &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br>",
+          "caption": ""
         },
         {
           "_styles": {
             ".mbr-section-title, .mbr-section-subtitle": {
               "text-align": "center"
+            },
+            "H3": {
+              "color": "#ffffff"
             }
           },
           "_tags": [
@@ -188,7 +205,7 @@
           "_params": {
             "paddingTop": 1,
             "paddingBottom": 1,
-            "bgColor": "#fff",
+            "bgColor": "#7b7272",
             "showMeta": true
           },
           "title": "Some of my work",
@@ -279,7 +296,7 @@
             "overlayColor": "#3C3C3C"
           },
           "text1": "<p><strong>Address</strong><br>1271 SW 124 Crt&nbsp;<br>\nMiami, FL 33184<br><br><br>\n<strong>Contacts</strong><br>\nEmail: kguerrero@miamiartsstudio.com&nbsp;&nbsp;&nbsp;&nbsp;<br>\nPhone: +1 (305) 710 7571<br><br></p>",
-          "text2": "<p class=\"mbr-contacts__text\"><strong>Links</strong></p><ul class=\"mbr-contacts__list\"><br><li><a href=\"introduction.html\">Biography</a></li><li><a href=\"photoshop.html\">Photoshop</a></li><li><a href=\"illustrator.html\">Illustrator</a></li><li>Credentials</li></ul>",
+          "text2": "<p class=\"mbr-contacts__text\"><strong>Links</strong></p><ul class=\"mbr-contacts__list\"><li><a href=\"introduction.html\">Biography</a></li><li><a href=\"photoshop.html\">Photoshop</a></li><li><a href=\"illustrator.html\">Illustrator</a></li><li>Credentials</li></ul>",
           "form": {
             "title": "MESSAGE",
             "action": "kguerrero@miamiartsstudio.com",
@@ -456,7 +473,7 @@
             "spacing": 0,
             "showText": false,
             "filter": false,
-            "bgColor": "fff",
+            "bgColor": "#151212",
             "filterBgColor": false,
             "fullWidth": true,
             "showBullets": true
@@ -573,7 +590,7 @@
             "overlayColor": "#3C3C3C"
           },
           "text1": "<p><strong>Address</strong><br>1271 SW 124 Crt&nbsp;<br>\nMiami, FL 33184<br><br><br>\n<strong>Contacts</strong><br>\nEmail: kguerrero@miamiartsstudio.com&nbsp;&nbsp;&nbsp;&nbsp;<br>\nPhone: +1 (305) 710 7571<br><br></p>",
-          "text2": "<p class=\"mbr-contacts__text\"><strong>Links</strong></p><ul class=\"mbr-contacts__list\"><br><li><a href=\"introduction.html\">Biography</a></li><li><a href=\"photoshop.html\">Photoshop</a></li><li><a href=\"illustrator.html\">Illustrator</a></li><li>Credentials</li></ul>",
+          "text2": "<p class=\"mbr-contacts__text\"><strong>Links</strong></p><ul class=\"mbr-contacts__list\"><li><a href=\"introduction.html\">Biography</a></li><li><a href=\"photoshop.html\">Photoshop</a></li><li><a href=\"illustrator.html\">Illustrator</a></li><li>Credentials</li></ul>",
           "form": {
             "title": "MESSAGE",
             "action": "kguerrero@miamiartsstudio.com",
@@ -645,7 +662,7 @@
             "paddingBottom": 3,
             "parallax": true,
             "bgImageRadio": true,
-            "bgImage": "@THEME_PATH@/components/_images/desert.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1190.jpg",
             "bgColor": "#F2F2F2",
             "bgColorRadio": false,
             "bgVideo": {
@@ -785,7 +802,7 @@
             "overlayColor": "#3C3C3C"
           },
           "text1": "<p><strong>Address</strong><br>1271 SW 124 Crt&nbsp;<br>\nMiami, FL 33184<br><br><br>\n<strong>Contacts</strong><br>\nEmail: kguerrero@miamiartsstudio.com&nbsp;&nbsp;&nbsp;&nbsp;<br>\nPhone: +1 (305) 710 7571<br><br></p>",
-          "text2": "<p class=\"mbr-contacts__text\"><strong>Links</strong></p><ul class=\"mbr-contacts__list\"><br><li><a href=\"introduction.html\">Biography</a></li><li><a href=\"photoshop.html\">Photoshop</a></li><li><a href=\"illustrator.html\">Illustrator</a></li><li>Credentials</li></ul>",
+          "text2": "<p class=\"mbr-contacts__text\"><strong>Links</strong></p><ul class=\"mbr-contacts__list\"><li><a href=\"introduction.html\">Biography</a></li><li><a href=\"photoshop.html\">Photoshop</a></li><li><a href=\"illustrator.html\">Illustrator</a></li><li>Credentials</li></ul>",
           "form": {
             "title": "MESSAGE",
             "action": "kguerrero@miamiartsstudio.com",
@@ -1235,7 +1252,7 @@
             "overlayColor": "#3C3C3C"
           },
           "text1": "<p><strong>Address</strong><br>1271 SW 124 Crt&nbsp;<br>\nMiami, FL 33184<br><br><br>\n<strong>Contacts</strong><br>\nEmail: kguerrero@miamiartsstudio.com&nbsp;&nbsp;&nbsp;&nbsp;<br>\nPhone: +1 (305) 710 7571<br><br></p>",
-          "text2": "<p class=\"mbr-contacts__text\"><strong>Links</strong></p><ul class=\"mbr-contacts__list\"><br><li><a href=\"introduction.html\">Biography</a></li><li><a href=\"photoshop.html\">Photoshop</a></li><li><a href=\"illustrator.html\">Illustrator</a></li><li>Credentials</li></ul>",
+          "text2": "<p class=\"mbr-contacts__text\"><strong>Links</strong></p><ul class=\"mbr-contacts__list\"><li><a href=\"introduction.html\">Biography</a></li><li><a href=\"photoshop.html\">Photoshop</a></li><li><a href=\"illustrator.html\">Illustrator</a></li><li>Credentials</li></ul>",
           "form": {
             "title": "MESSAGE",
             "action": "kguerrero@miamiartsstudio.com",
