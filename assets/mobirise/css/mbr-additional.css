@@ -491,6 +491,9 @@ h6,
 #msg-box8-a p {
   color: #fff;
 }
+#msg-box8-a .lead {
+  color: #efefef;
+}
 #menu-c .hide-buttons .nav-btn {
   display: none !important;
 }
@@ -558,6 +561,16 @@ h6,
 #msg-box8-9 .mbr-section-title,
 #msg-box8-9 p {
   color: #fff;
+}
+#msg-box8-9 .lead {
+  color: #efefef;
+}
+#msg-box8-1d .mbr-section-title,
+#msg-box8-1d p {
+  color: #fff;
+}
+#msg-box8-1d .mbr-section-title P {
+  font-size: 48px;
 }
 #contacts4-w UL {
   text-align: left;
