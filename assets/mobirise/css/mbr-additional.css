@@ -484,6 +484,10 @@ h6,
 #header3-13 H3 {
   color: #ffffff;
 }
+#social-buttons4-1e .mbr-section-title,
+#social-buttons4-1e .btn-social {
+  color: #fff;
+}
 #contacts4-w UL {
   text-align: left;
 }
@@ -493,6 +497,10 @@ h6,
 }
 #msg-box8-a .lead {
   color: #efefef;
+}
+#social-buttons4-1f .mbr-section-title,
+#social-buttons4-1f .btn-social {
+  color: #fff;
 }
 #menu-c .hide-buttons .nav-btn {
   display: none !important;
@@ -571,6 +579,10 @@ h6,
 }
 #msg-box8-1d .mbr-section-title P {
   font-size: 48px;
+}
+#social-buttons4-1h .mbr-section-title,
+#social-buttons4-1h .btn-social {
+  color: #fff;
 }
 #contacts4-w UL {
   text-align: left;
