@@ -749,8 +749,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/avengers-2000x2000-800x8000.jpg",
-                "image": "@PROJECT_PATH@/assets/images/avengers-2000x20001.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/avengers-2000x2000-800x8004.jpg",
+                "image": "@PROJECT_PATH@/assets/images/avengers-2000x20005.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
