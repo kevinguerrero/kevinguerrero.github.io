@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "photoshop.html",
+    "currentPage": "index.html",
     "name": "My Site",
     "theme": {
       "name": "mobirise3",
@@ -273,7 +273,7 @@
           },
           "title": "",
           "text": "",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-white\" href=\"https://www.youtube.com/watch?v=s8nGRf4cROI\" data-toolbar=\"-mbrBtnMove\">Introduction To Me</a>"
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-white\" href=\"https://www.youtube.com/watch?v=2hIO7SR7rzg\" data-toolbar=\"-mbrBtnMove\">Introduction To Me</a>"
         },
         {
           "_inherit": "social-buttons2",
