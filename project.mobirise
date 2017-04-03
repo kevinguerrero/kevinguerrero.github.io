@@ -273,7 +273,7 @@
           },
           "title": "",
           "text": "",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-white\" href=\"https://www.youtube.com/watch?v=IFXyClzA7L8\" data-toolbar=\"-mbrBtnMove\">Introduction To Me</a>"
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-white\" href=\"https://www.youtube.com/watch?v=rACQLC86xcc\" data-toolbar=\"-mbrBtnMove\">Introduction To Me</a>"
         },
         {
           "_inherit": "social-buttons2",
@@ -747,8 +747,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/avengers-2000x2000-800x8000.jpg",
-                "image": "@PROJECT_PATH@/assets/images/avengers-2000x20001.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/avengers-2000x2000-800x8002.jpg",
+                "image": "@PROJECT_PATH@/assets/images/avengers-2000x20003.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
