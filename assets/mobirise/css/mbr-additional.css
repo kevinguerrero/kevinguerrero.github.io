@@ -472,16 +472,17 @@ h6,
 #menu-m .dropdown-item[aria-expanded="true"] {
   color: #c0a375!important;
 }
+#content8-17 .mbr-section-title,
+#content8-17 p {
+  text-align: right;
+  color: #fff;
+}
 #header3-13 .mbr-section-title,
 #header3-13 .mbr-section-subtitle {
   text-align: center;
 }
 #header3-13 H3 {
   color: #ffffff;
-}
-#msg-box8-1o .mbr-section-title,
-#msg-box8-1o p {
-  color: #fff;
 }
 #social-buttons4-1e .mbr-section-title,
 #social-buttons4-1e .btn-social {
